@@ -1,0 +1,1 @@
+var RelatedCarousel=function(){function n(n,t,i){Log&&Log.Log(n,"CI",t,!0,"Meta",i)}Carousel.apply(this);this.logShuttleLeft=function(){n("Scroll","RelatedCarousel","Mouse")};this.logShuttleRight=function(){n("Scroll","RelatedCarousel","Mouse")};this.getDetailsSnapToElements=function(n){var t=n.firstChild.nextSibling;return t.children}},RelCarInst=new RelatedCarousel
