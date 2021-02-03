@@ -1,0 +1,20 @@
+
+.col-lg-12 {
+    white-space: nowrap !important;
+    max-width: 100%;
+    overflow: auto;
+}
+.col-lg-3 {
+
+    max-width: 33%;
+    overflow:auto;
+
+    display: inline-block !important;
+}
+h1{color: #777777; font-family: "Bell MT"}
+h3{color: #777777;  font-family: "Bell MT"}
+p{
+    text-align: center;
+    color: #2e6da4;
+    font-family: Gabriola;
+}

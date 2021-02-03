@@ -1,0 +1,23 @@
+<!document html>
+<html lang="en">
+<head>
+    <title>Rock Paper Scissors</title>
+    <style>
+        p{color: dimgrey;}
+    </style>
+</head>
+<body style="background-color: aqua">
+    <script src="rock.js"></script>  <!--links to js file-->
+    <div   style="position: absolute; bottom: 45%; left: 40%;">
+        <img alt=user id=use src="Images/rockuser.jfif" height="100" width="150">   <img alt=computer id=com src="Images/rockcom.jfif" height="100" width="150"><br><br>
+        <div style="position: absolute; top: 110; left: 50;">
+
+            <input type="button" name="rock" value="rock" onclick="userinput(this)">
+            <input type="button" name="paper" value="paper"  onclick="userinput(this)">
+            <input type="button" name="scissor" value="scissor"  onclick="userinput(this)">
+            <p id="user"></p>           <p id="computer"></p>
+            <p id="res" style="font-family: fantasy; color: darkred"></p>
+        </div>
+    </div>
+</body>
+</html>
