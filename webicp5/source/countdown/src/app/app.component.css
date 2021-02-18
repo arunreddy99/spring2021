@@ -1,0 +1,36 @@
+body{
+    align-items: center;
+    padding-left: 450px;
+    padding-top: 50px;
+  }
+  table{
+    align-self: center;
+    background-color: cornflowerblue;
+    border: black 2px solid;
+  }
+  thead{
+    border: 4px red solid;
+    font-size: 40px;
+    text-align: center;
+  }
+  tr{
+    font-size: 20px;
+  }
+  td{
+    border-left: aliceblue solid 1px;
+    padding: 5px;
+    text-align: justify-all;
+  }
+  span{
+    font-size: 20px;
+  }
+  .val
+  {
+    font-size: 50px;
+  }
+  tfoot
+  {
+  
+    font-size: 30px;
+  }
+  
