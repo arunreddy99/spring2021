@@ -1,0 +1,25 @@
+<!Doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>Count Down</title>
+</head>
+<body>
+    <table>
+      <thead style="text-align: center">
+      <td colspan="4"> Birthday </td></thead>
+      <tbody>
+      <tr class="val">
+        <td>{{day}}<br><span> days</span></td>
+        <td>{{hrs}}<br><span> hours</span></td>
+        <td>{{mins}}<br><span> minutes</span></td>
+        <td>{{secs}}<br><span> seconds</span></td>
+      </tr>
+      </tbody>
+      <tfoot >
+      <td colspan="4">{{ tim}}</td></tfoot>
+    </table>
+    <input matInput [matDatepicker]="picker" placeholder="Different locale" (dateChange)="setDate($event.value)">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker type="datetime"></mat-datepicker>
+</body>
+</html>
