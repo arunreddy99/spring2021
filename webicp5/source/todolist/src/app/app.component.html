@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!--1. write Typescript code in "app.component.ts" to work with ToDolist-->
+</head>
+<body>
+<h1>{{title}}</h1>
+<ul *ngFor="let todo of items">
+  <li class=pe (click)="completeItem(todo)">
+    <span [ngClass]="{strike: todo.done}">{{todo.label}}</span><i class="fa fa-trash" (click)="deleteItem(todo)"></i></li>
+</ul>
+  <input type="text" #newTo name="newTo" >
+<button (click)="submitNewItem(newTo)" >Add</button>
+</body>
+</html>
