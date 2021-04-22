@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "286052826758",
+    "project_id": "webp-a278b",
+    "storage_bucket": "webp-a278b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286052826758:android:0efd09f8fa051cf929db07",
+        "android_client_info": {
+          "package_name": "com.arun.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286052826758-lpat8fktt114g4vjkab9l0s1uut8rkg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2b7WZE0yN_OEDl_oRff1TmroyKX-uCyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286052826758-lpat8fktt114g4vjkab9l0s1uut8rkg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
